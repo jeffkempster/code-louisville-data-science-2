@@ -26,13 +26,11 @@ There is a **requirements.txt** file in the repo that you should use the load th
 ### Cartopy Issues on MacOS
 Also I have had many issues trying to get Cartopy to install with the requirements.txt file. It just wont. The typical error is that numpy isn't installed but it clearly is. 
 
-I put the Cartopy at the end of the requirements file, so it would go last. But,there is no guarantee that pip honors the order. So these are the steps that seem to work.
+I put the Cartopy at the end of the requirements file, so it would go last. But, there is no guarantee that pip honors the order. So these are the steps that seem to work for me.
 
 * pip -r requirements.txt
 * pip install numpy (it already is but...)
 * pip install Cartopy
 
-Those three steps have worked for me. 
-
-**Offical Cartopy installation**
+### Offical Cartopy installation
 https://scitools.org.uk/cartopy/docs/latest/installing.html
