@@ -19,24 +19,11 @@ There are approximately 1000 sites and 10,000 chargers in the US at the time thi
 * Compare the output power (150Kw, 250Kw, etc) that determines how long a vehicle has to stay to charge.
 * Has the Supercharger network kept up with the production and delivery of new Teslas?
 * Are Superchargers distributed equally when factoring population?
-
-## Model Requirement
-* What sort of model can I apply to this data.
-* Do I need more data.
-* Average income by zip code could predict if there is a supercharger near
-* Can I get the distance from each charger to an interstate. Then predict a location 
-* What are some other features about the site that i can use to predict. location, charge power, 
-* What about comparing to other businesses like Chick-fil-a or Starbucks near.
-* What is a classification model. Can I apply my data to this?
-
-
-## Getting Started
-
-This is the repo for homework assignments and the project for Code Louisville Python Part 2 course. 
+* Using a machine learning model, can I predict the size of the Supercharger site based on the features contained int the dataset
 
 ### Requirements.txt
 
-There is a **requirements.txt** file that you should use the load the libraries. I used Jupyter Lab to build the project. It has quite a few packages it needs just for Jupyter Lab. So the requirements.txt file is longer than it should be with Notebooks.
+There is a **requirements.txt** file in the repo that you should use the load the libraries. I used Jupyter Lab to build the project. It has quite a few packages it needs just for Jupyter Lab. So the requirements.txt file is longer than it should be with Notebooks.
 
 ### Cartopy Issues on MacOS
 Also I have had many issues trying to get Cartopy to install with the requirements.txt file. It just wont. The typical error is that numpy isn't installed but it clearly is. 
@@ -51,11 +38,6 @@ Those three steps have worked for me.
 
 **Offical Cartopy installation**
 https://scitools.org.uk/cartopy/docs/latest/installing.html
-
-
-### Project Folder
-
-The project is located in the project folder. There are other folders in the repo. They are the homework from coursera and other resources. But the most interesting stuff starts in the project folder. 
 
 ## The future
 * Supercharger sites are primarily needed for inter state travel. It would be interesting to compare travel volume with the installation of new sites.  
