@@ -28,7 +28,7 @@ Also I have had many issues trying to get Cartopy to install with the requiremen
 
 I put the Cartopy at the end of the requirements file, so it would go last. But, there is no guarantee that pip honors the order. So these are the steps that seem to work for me.
 
-* pip -r requirements.txt
+* pip install -r requirements.txt
 * pip install numpy (it already is but...)
 * pip install Cartopy
 
