@@ -1,3 +1,4 @@
+![image of tesla superchargers](images/tesla-supercharger.png)
 # Code Louisville - January 2021
 ## Data Science with Python
 
@@ -38,7 +39,3 @@ Those three steps have worked for me.
 
 **Offical Cartopy installation**
 https://scitools.org.uk/cartopy/docs/latest/installing.html
-
-## The future
-* Supercharger sites are primarily needed for inter state travel. It would be interesting to compare travel volume with the installation of new sites.  
-* The dataset contains predictions of new sites for 2021 and beyond. Analyze the number of new sites. 
