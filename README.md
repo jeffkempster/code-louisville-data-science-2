@@ -1,8 +1,6 @@
 ![image of tesla superchargers](images/tesla-supercharger.png)
 # Code Louisville - January 2021
-## Data Science with Python
-
-## Tesla Superchargers
+## Data Science with Python - Tesla Superchargers Project
 
 This notebook will analyze the Tesla Supercharging Network. This is a network of electric vehicle charging sites located throughout the world. These chargers are primarily used by Tesla vehicles. A typical Tesla has a range of 250-350 miles. To travel, you will need to stop and charge. 
 
@@ -15,7 +13,6 @@ There are approximately 1000 sites and 10,000 chargers in the US at the time thi
 * What are the top ten sites by state?
 * What are the top ten individual chargers by state?
 * What are the top ten states with the the fewest people per charger **the best**?
-  * Introduce state population
 * How are the sites distributed across the U.S.?
 * Compare the output power (150Kw, 250Kw, etc) that determines how long a vehicle has to stay to charge.
 * Has the Supercharger network kept up with the production and delivery of new Teslas?
